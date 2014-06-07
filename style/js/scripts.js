@@ -266,7 +266,7 @@ $(document).ready(function() {
 		soloArrowRightValign: "center",
 		soloArrowRightHOffset: 20,
 		soloArrowRightVOffset: 0,
-		touchenabled: "on",
+		touchenabled: "off",
 		// Enable Swipe Function : on/off
 		onHoverStop: "on",
 		// Stop Banner Timet at Hover on Slide on/off
@@ -313,7 +313,7 @@ $(document).ready(function() {
 		soloArrowRightValign: "center",
 		soloArrowRightHOffset: 20,
 		soloArrowRightVOffset: 0,
-		touchenabled: "on",
+		touchenabled: "off",
 		// Enable Swipe Function : on/off
 		onHoverStop: "on",
 		// Stop Banner Timet at Hover on Slide on/off
