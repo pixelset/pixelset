@@ -192,7 +192,7 @@ function showMarketTab(num) {
       $('#testimonials').easytabs({
 	      animationSpeed: 500,
 	      updateHash: false,
-	      cycle: 5000
+	      cycle: 7000
       });
       
     });
