@@ -50,10 +50,6 @@
   }(document, 'script', 'facebook-jssdk'));</script>
   <!-- END FaceBook share -->
 
-  <!-- Yandex Map -->
-     <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=k9gwuNxmp4bQdG_YmNwUluJOiqUUXO1Y&id=mymap"></script>
-   <!-- End Yandex Map -->
-
   <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 (function (d, w, c) {
@@ -93,9 +89,9 @@
         <!-- Begin Menu -->
         <nav id="menu" class="menu">
           <ul id="tiny">
-            <li><a href="services.html">Услуги</a></li>
+            <li class="active"><a href="services.html">Услуги</a></li>
             <li><a href="portfolio.html">Портфолио</a></li>
-            <li class="active"><a href="contact.html">Контакты</a></li>
+            <li><a href="contact.html">Контакты</a></li>
           </ul>    
         </nav>
         <!-- End Menu -->
@@ -109,59 +105,40 @@
   <div class="light-wrapper"> 
     <!-- Begin Inner -->
     <div class="inner">
-      <h1 class="aligncenter">Контакты</h1>
-      <div class="map">
-        <div id="mymap" style="width: 100%; height: 400px"></div>
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.9249616195739!2d37.581652201889156!3d55.71158892658343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b7bbb069105%3A0x243af9207dc11169!2z0JvQtdC90LjQvdGB0LrQuNC5INC_0YAuLCAzMNCQLCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzM0!5e0!3m2!1sru!2sua!4v1419869213987" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
-      </div>
-      <h2 class="aligncenter">Пишите нам</h2>
-      <!-- <p class="description aligncenter">Необходимо рассчитать стоимоть? Или у Вас есть вопрос?</p> -->
-      
-      <!-- Begin Content -->
-      <section class="content">
-        <!-- Begin Form -->
-        <div class="form-container">
-          <form class="forms" action="contact/form-handler.php" method="post">
-            <fieldset>
-              <ol>
-                <li class="form-row text-input-row name-field">
-                  <input type="text" name="name" class="text-input defaultText required" title="Имя"/>
-                </li>
-                <li class="form-row text-input-row email-field">
-                  <input type="text" name="email" class="text-input defaultText required email" title="Email"/>
-                </li>
-                <li class="form-row text-input-row subject-field">
-                  <input id="mail-form-phone" type="text" name="subject" class="text-input defaultText required" title="Телефон"/>
-                </li>
-                <li class="form-row text-area-row">
-                  <textarea name="message" class="text-area required"></textarea>
-                </li>
-                <li class="form-row hidden-row">
-                  <input type="hidden" name="hidden" value="" />
-                </li>
-                <li class="button-row">
-                  <input type="submit" value="Отправить" name="submit" class="btn-submit" onclick="yaCounter24246010.reachGoal('ORDER'); return true;" />
-                </li>
-              </ol>
-              <input type="hidden" name="v_error" id="v-error" value="Required" />
-              <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
-            </fieldset>
-          </form>
-          <div class="response"></div>
+      <h1 class="aligncenter">Услуги</h1>
+      <p class="description aligncenter">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+      <br />
+
+    <div class="services">
+      <div class="one-half"> <i class="icon-paper-plane special"></i>
+        <div class="info">
+          <h3>Дизайн</h3>
+          <p>Donec elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum ligula porta felis cras ridiculus dapibus, aenean eu leo quam.</p>
         </div>
-        <!-- End Form --> 
-      </section>
-      <aside class="sidebar">
-        <div class="sidebox">
-          <i class="icon-location"></i> Москва<br />
-          <i class="icon-phone contact"></i>+7 (499) 372 13 14 <br />
-          <i class="icon-mail contact"></i> <a href="mailto:info@pixelset.ru">info@pixelset.ru</a> </div>
-          <br/>
-          <ul class="social">
-            <li><a href="https://www.facebook.com/pixelset.web" target="_blank"><i class="icon-s-facebook"></i></a></li>
-        </ul>
-      </aside>
+      </div>
+      <div class="one-half last"> <i class="icon-briefcase-1 special"></i>
+        <div class="info">
+          <h3>Программирование</h3>
+          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta.</p>
+        </div>
+      </div>
       <div class="clear"></div>
+      <br />
+      <div class="one-half"> <i class="icon-lamp special"></i>
+        <div class="info">
+          <h3>Маркетинг и реклама</h3>
+          <p>Mollis est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem elit. Aenean lacinia bibendum nulla consectetur. Integer posuere erat a ante venenatis dapibus.</p>
+        </div>
+      </div>
+      <div class="one-half last"> <i class="icon-basket-1 special"></i>
+        <div class="info">
+          <h3>Маркетинговая стратегия</h3>
+          <p>Morbi leo risus, porta ac consectetur, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+      </div>
+
     </div>
     <!-- End Inner --> 
   </div>

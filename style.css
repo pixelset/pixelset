@@ -716,6 +716,14 @@ p.description {
     line-height: 1;
     margin-bottom: 20px;
 }
+
+.box-wrapper .box i.portfolio {
+    font-size: 30px;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
 .box-wrapper .box h3,
 .box-wrapper .box p,
 .box-wrapper .box i.special {
@@ -1852,7 +1860,7 @@ ul.retina-icons li span {
     width: 100% !important;
     position: relative;
     padding: 0;
-    max-height: 350px !important;
+    max-height: 400px !important;
     overflow: hidden;
 }
 .portfolio-bannercontainer {
@@ -1888,6 +1896,12 @@ ul.retina-icons li span {
     font-size: 60px;
     white-space: nowrap;
 }
+
+.bigger-percent {
+    font-size: 40px;
+}
+
+
 .tp-caption.bigger {
     position: absolute;
     color: #d9d9d9;
@@ -1904,12 +1918,21 @@ ul.retina-icons li span {
     font-size: 40px;
     white-space: nowrap;
 }
+.tp-caption.medium {
+    position: absolute;
+    color: #d9d9d9;
+    text-shadow: none;
+    font-weight: 300;
+    font-size: 28px;
+    white-space: nowrap;
+}
 .tp-caption strong {
     font-weight: 900
 }
 .tp-caption .colored {
     color: #ff6760
 }
+
 .tp_inner_padding {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
